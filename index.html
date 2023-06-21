@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body {
+
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            border-style: #f4f4f4;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .textbox {
+            width: 300px;
+            height: 30px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos CSS para el botón de enviar */
+        .btn {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            PORTAFOLIO JD
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="#inicio"> Sobre MI </a></li>
+            <li> <a href="servicios"> Servicios </a></li>
+            <li> <a href="#proyectos"> Proyectos </a></li>
+            <li> <a href="#tecnologias"> Tecnologias </a></li>
+            <li> <a href="#contacto"> Contacto </a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2> BIENVENIDO A MI PORTAFOLIO </h2>
+        <p>
+            Hola ! Mi nombre es Juan soy estudiante de desarrollo de software
+            en la Escuela Politecnica Nacional, tengo 21 años y me gustar aprender
+            siempre sobre las nuevas Tecnologias
+        </p>
+    </section>
+    <section id="servicios">
+        <h2> Servicios </h2>
+        <ul>
+            <li> Proyectos en Java </li>
+            <li> Proyectos en Python </li>
+            <li> Diseño Web </li>
+        </ul>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li> Sistema de Gestion Java </li>
+            <li> Juego con Pygame </li>
+            <li> Diseños en Figma </li>
+        </ul>
+
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte conmigo a través del siguiente correo electrónico:</p>
+        <p> juan.gualotuna@epn.edu.ec </p>
+        <p> Whatsapp : 0999863288 </p>
+        <form>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" class="textbox">
+                <input type="email" name="correo" placeholder="Correo electrónico" class="textbox">
+                <textarea name="mensaje" placeholder="Mensaje" rows="5" class="textbox"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </form>
+    </section>
+</body>
+</html>
